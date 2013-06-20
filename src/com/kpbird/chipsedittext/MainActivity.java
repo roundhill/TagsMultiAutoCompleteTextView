@@ -10,14 +10,14 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-	ChipsMultiAutoCompleteTextview mu;
+	TagsMultiAutoCompleteTextview mu;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		mu = (ChipsMultiAutoCompleteTextview) findViewById(R.id.multiAutoCompleteTextView1);
+		mu = (TagsMultiAutoCompleteTextview) findViewById(R.id.multiAutoCompleteTextView1);
 
 		String[] item = getResources().getStringArray(R.array.country);
 
